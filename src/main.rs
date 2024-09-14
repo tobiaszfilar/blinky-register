@@ -16,7 +16,7 @@ fn main() -> ! {
     }
 
     const GPIOA_MODER: *mut u32 = 0x4002_0000 as *mut u32;
-    const GPIOA_OTYPER: *mut u32 = 	0x4002_0004 as *mut u32;
+    const GPIOA_OTYPER: *mut u32 = 0x4002_0004 as *mut u32;
     const GPIOA_OSPEEDR: *mut u32 = 0x4002_0008 as *mut u32;
     const GPIOA_BSRR: *mut u32 = 0x4002_0018 as *mut u32;
     unsafe {
