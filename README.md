@@ -29,8 +29,8 @@ Configuration in `.cargo/config.toml` allows you to build and flash the program 
 1. Clone the repository:
 
    ```bash
-   git clone <repository_url>
-   cd <repository_name>
+   git clone https://github.com/tobiaszfilar/blinky-register
+   cd blinky-register
    cargo build
    cargo run
 This setup uses probe-rs to handle flashing and debugging directly from the command line.
